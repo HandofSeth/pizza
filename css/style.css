@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap");
 
 /* Forçage du format d'affichage de base pour les balises HTML */
+
 
 body {
     padding: 0;
@@ -49,10 +50,11 @@ a {
 ul {
     padding: 0;
     margin: 0;
-}
+
 
 
 /* Menus tablette ou ordinateur */
+
 
 .menus1 {
     background-color: rgb(0, 128, 0);
@@ -71,12 +73,12 @@ ul {
     display: block;
     text-align: center;
     padding: 0 16px;
-}
+
 
 
 /* Menus smartphones */
 
-.menus2 ul {
+
     float: right;
     list-style-type: none;
     text-decoration: none;
@@ -96,18 +98,20 @@ ul {
 .menus2 ul {
     right: 0;
     position: absolute;
-}
 
 .menus2 label {
+
     color: rgb(255, 255, 255);
     right: 0;
     top: 0
+
 }
 
 
 /* Déroulement du menu smartphone au survol du hamburger */
 
 .menuDeroulant {
+
     position: absolute;
     top: 70px;
     visibility: hidden;
@@ -137,12 +141,13 @@ ul {
 
 .menuDeroulant:hover {
     visibility: visible;
-}
+
 
 
 /* Autres classes */
 
 .tel {
+
     float: left;
 }
 
@@ -185,7 +190,7 @@ ul {
     margin: auto;
     display: flex;
     height: 72px;
-}
+
 
 .toggle {
     height: 5rem;
@@ -217,6 +222,7 @@ ul {
 }
 
 .menu-heading {
+
     font-size: 6rem;
     text-align: center;
     text-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
@@ -224,6 +230,7 @@ ul {
     color: white;
     top: 10px;
     font-weight: 800px;
+
 }
 
 .menu-grid {
@@ -250,6 +257,7 @@ ul {
 }
 
 .menu-container {
+
     margin: 1%;
     opacity: 1;
     width: 100%;
@@ -259,7 +267,7 @@ ul {
     box-shadow: 0 0 2rem rgb(0 0 0 / 20%);
     transition: all 1s ease;
     height: 642px;
-}
+
 
 .menu-container:hover {
     box-shadow: 0 0 5rem rgba(0, 0, 0, 0.4);
@@ -267,6 +275,7 @@ ul {
 }
 
 .menu-p {
+
     font-size: 1.4rem;
     padding: 1 rem;
     text-align: center;
@@ -300,7 +309,7 @@ ul {
     font-size: 60px;
     top: -190px;
     position: relative;
-}
+
 
 
 }
@@ -311,6 +320,7 @@ ul {
 }
 
 /* Responsive design */
+
 @media screen and (max-width: 1150px) {
     main h1 {
         font-size: 300%;
@@ -340,8 +350,9 @@ ul {
     .boutonCommande {
         font-size: 2em;
     }
-}
+
 @media screen and (min-width: 1151px) {
+
     .menus2 {
         visibility: hidden;
     }
@@ -350,6 +361,7 @@ ul {
         font-size: 3em;
     }
 }
+
 @media screen and (max-width: 1151px) {
     .menu-grid {
         display: grid;
@@ -369,6 +381,7 @@ ul {
     }
 }
 @media screen and (max-width: 500px) {
+
     .menus1 {
         width: 100%;
     }
